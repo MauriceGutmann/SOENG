@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			h1 { color: darkslategrey; 
+				 text-align: left; 
+                 background-color: lightgrey;}
+			h2 { color: darkslategrey; 
+				 text-align: center; }
+            body { text-align : center;}
+			
+			footer {color: darkslategrey; 
+				 text-align: center; 
+                 background-color: lightgrey;
+				 position: fixed; 
+				 left: 0px;
+				 bottom: 0px; 
+				 height: 96px;
+				 width: 100%; }
+			h3 {color: darkslategrey; 
+				 text-align: center;}
+			flex-container {
+			     display: -webkit-flex;
+			     display: -ms-flex;
+			     display: flex;
+			     -webkit-flex-wrap: wrap;
+			     -ms-flex-wrap: wrap;
+			     flex-wrap: wrap;
+				 flex-direction: row;
+				 background-color: lightgrey;}
+			.panel-1 {
+				 display: -webkit-flex; 
+				 display: -ms-flexbox; 
+				 display: flex;
+				 align-items: center;
+				 justify-content: center;
+				 flex-direction: column;}
+			flex-container2 {
+			     display: -webkit-flex;
+			     display: -ms-flex;
+			     display: flex;
+			     -webkit-flex-wrap: wrap;
+			     -ms-flex-wrap: wrap;
+			     flex-wrap: wrap;
+				 flex-direction: row;}
+			.panel-3{
+				 width: 50%;
+				 float: left;}
+			.panel-3: empty{
+				 width: 50%;
+				 float: left;}
+		</style>
+		<title>retroweb -login</title>
+	</head>
+	<body>
+		<h1>
+			<img src="C:\Users\mauri\Desktop\HTWG\4. Semester\Software Engeneering2\Aufgabe2\Logo.png" width= "250" height= "50">
+			<p>retroweb</p>
+		</h1>
+		<div id="flex-container">
+			<div class="panel panel-1">
+				<h2>
+					<nobr>
+						Bitte melden Sie sich an
+					</nobr>
+				</h2>
+			</div>
+		<div id="flex-container2">
+			<div class="panel panel-3">
+				<label>Anmeldename:<label>
+			</div>
+			<div class="panel panel-3">
+				<input type="text" name="username" id="an" placeholder="name"/>
+			</div>
+			<div class="panel panel-3">
+				<label>Passwort:<label>
+			</div>
+			<div class="panel panel-3">
+				<input type="text" name="password" id="pwd" placeholder="password"/>
+			</div>
+			<div class="panel panel-3">
+			</div>
+			<div class="panel panel-3">
+				<input type="submit" value="anmelden" placeholder="anmelden"/>
+			</div>
+		</div>
+		</div>
+	</body>
+	<footer>
+	<h3>Impressum</h3>
+	<p>HTWG, Alfred-Wachtel-Straße 8, 78462 Konstanz</p>
+	</footer>
+</html>
+
